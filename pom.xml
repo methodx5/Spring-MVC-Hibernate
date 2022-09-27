@@ -5,7 +5,11 @@
   <artifactId>spring_course_mvc_hibernate_aop</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>spring_course_mvc_hibernate_aop</name>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <name>spring_course_mvc_hibernate_aop</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -49,6 +53,12 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-orm</artifactId>
       <version>5.3.22</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.6</version>
     </dependency>
 
 
